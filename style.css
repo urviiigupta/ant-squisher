@@ -1,0 +1,27 @@
+body
+{
+    background-color: papayawhip ;
+}
+
+:root {
+    --bg-image: url('360_F_90985363_MVFx1czghxJechCp7HM85bKJv1vUQN2c-fotor-bg-remover-20230731232659.png');
+    --bg-image2: url('png-transparent-computer-icons-drawing-green-splash-leaf-logo-vector-clipart-fotor-bg-remover-20230731233348.png');
+
+  }
+.ant
+{
+    height: 50px;
+    width: 100px;
+   /* background-image: var(--bg-image);
+    background-size: 50px; 
+    
+    background-color: papayawhip; */
+    background-repeat: no-repeat; 
+    border: 0px;
+    backface-visibility: hidden;
+}
+
+img:active {
+    content: var(--bg-image2);
+ } 
+ 

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="script.js">
+        
+    </script>
+    <link href="style.css" rel="stylesheet">
+    
+</head>
+
+<body>
+   
+
+<div ng-app="myApp" ng-controller="myCtrl">
+
+
+
+
+<div class="container">
+        <div class="score"> SCORE <br>
+            <input type="text" class="INP"  ng-model="score" disabled="true" value="00"/>
+            <button type="button" id="btnstart" ng-click="newstart()" >start</button>
+           <!-- <label><input class="bubble" type="checkbox" name="dummy" ng-click="newstart()" value="on"></label> -->
+        </div>
+     <span ng-repeat="myant in arrants" > 
+   
+   
+  <!-- <button  type="button" class="ant" id="ant1" ng-click="addscore(myant)" style="position:absolute; left: {{myant.X}}px; top: {{myant.Y}}px"> 
+    </button> -->
+
+    
+
+    <img src="360_F_90985363_MVFx1czghxJechCp7HM85bKJv1vUQN2c-fotor-bg-remover-20230731232659.png" class="ant" id="ant1" ng-click="addscore(myant)" style="position:absolute; left: {{myant.X}}px; top: {{myant.Y}}px">
+   
+   
+
+</span>
+    </div>
+
+
+</div>
+</body>
+</html>
