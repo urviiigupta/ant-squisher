@@ -23,5 +23,9 @@ body
 
 img:active {
     content: var(--bg-image2);
+    transition: 0.2sec;
+    height: 200px;
+    width:200px;
+  
  } 
  
